@@ -1,0 +1,65 @@
+HTML {
+    background: url("bg.png") no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+}
+.app{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 730px;
+    top: 150px;
+
+    background: #E7E7E7;
+    border: 1px solid #808080;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
+.input{
+    position: absolute;
+    width: 328px;
+    height: 48px;
+    left: 556px;
+    top: 481px;
+
+    background: #E7E7E7;
+    border: 1px solid #808080;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.04);
+    border-radius: 8px 8px 0px 0px;
+
+}
+.inputesi{
+    position: relative;
+    bottom: 6em;
+    left: 2.5em;
+}
+.inp2{
+    position: absolute;
+    width: 328px;
+    height: 48px;
+    left: 556px;
+    top: 530px;
+
+    background: #E6E6E6;
+    border: 1px solid #808080;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.04);
+    border-radius: 0px 0px 8px 8px;
+}
+.but{
+    position: absolute;
+    width: 328px;
+    height: 48px;
+    left: 604px;
+    top: 510px;
+
+    background: #998373;
+    border: 1px solid #808080;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+}
